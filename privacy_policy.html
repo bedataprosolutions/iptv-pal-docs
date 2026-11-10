@@ -1,0 +1,263 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPTV Pal Privacy Policy</title>
+  <style>
+    :root {
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --border: #e2e8f0;
+      --accent-subtle: #eff6ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-page: #0f172a;
+        --bg-surface: #1e293b;
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --primary: #3b82f6;
+        --primary-hover: #60a5fa;
+        --border: #334155;
+        --accent-subtle: #1e3a8a33;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 48px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      padding: 48px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    .meta {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .meta span strong {
+      color: var(--text-main);
+    }
+
+    .notice-box {
+      background: var(--accent-subtle);
+      border-left: 4px solid var(--primary);
+      padding: 14px 18px;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.95rem;
+      color: var(--text-main);
+      margin: 20px 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      margin: 40px 0 16px;
+      color: var(--text-main);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 1rem;
+    }
+
+    ul {
+      margin: 0 0 20px 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--primary-hover);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 8px;
+      }
+
+      .container {
+        padding: 24px 18px;
+        border-radius: 8px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1>IPTV Pal Privacy Policy</h1>
+      <div class="meta">
+        <span><strong>Effective date:</strong> [EFFECTIVE_DATE]</span>
+        <span><strong>Last updated:</strong> 10 November 2026</span>
+      </div>
+      <p>This policy explains how IPTV Pal, also displayed as IPTV Player in the app, handles personal information when you use the app or contact us.</p>
+      <div class="notice-box">
+        <strong>Privacy &amp; account requests:</strong> <a href="mailto:bedatapro.solutions@gmail.com">bedatapro.solutions@gmail.com</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Information stored on your device</h2>
+      <p>The app keeps your IPTV library on your device. This includes provider connection settings, imported playlists, catalog and TV guide information, channel and category favorites, playback progress, and app preferences.</p>
+      <p>Provider connection credentials, saved stream connection details and the app's private copies of imported playlists are encrypted at rest. Encryption keys are kept in the device's secure storage. Other local information, such as catalog metadata, favorites and playback progress, is not necessarily encrypted by the app. Your device's own security and backup settings also matter.</p>
+      <p>We do not upload your playlists, provider passwords, favorites or viewing history to our Firebase account service or RevenueCat subscription service. Connecting to an IPTV provider necessarily sends that provider the requests and credentials needed to retrieve its catalogs, guide data and streams.</p>
+    </section>
+
+    <section>
+      <h2>Google sign-in and Firebase Authentication</h2>
+      <p>You can use the Free version without creating an app account. Pro requires Google sign-in through Firebase Authentication.</p>
+      <p>When you sign in, Google and Firebase process authentication information. This may include your Google account identifier, email address, display name and profile image, together with a Firebase user identifier and authentication tokens. We use this information to identify your account, show your signed-in status, and associate Pro access with the correct account.</p>
+      <p>We do not receive your Google password. Signing out removes Pro access from that app session until you sign in again; it does not cancel a store subscription.</p>
+    </section>
+
+    <section>
+      <h2>Subscriptions, purchases and RevenueCat</h2>
+      <p>We use RevenueCat to check and manage access to Pro. The app sends your Firebase user identifier to RevenueCat as its app user identifier. RevenueCat and the applicable store process subscription and transaction information, such as product identifiers, purchase and renewal dates, subscription status, purchase tokens or receipts, store account associations, and relevant app/device or network information.</p>
+      <p>We use this information to enable paid features, restore eligible purchases, handle subscription changes and billing issues, and help prevent misuse. We do not deliberately send your Google email address, IPTV provider credentials or viewing history to RevenueCat.</p>
+      <p>Payments are processed by Google Play or Apple's App Store. The app does not receive or store your full payment-card details. The store may retain payment and transaction records under its own policies and legal obligations.</p>
+    </section>
+
+    <section>
+      <h2>IPTV providers and other external services</h2>
+      <p>The provider you choose, its stream hosts, TV guide hosts, and image or artwork hosts may receive your IP address, connection information, requested content and any credentials required by their service. They operate under their own privacy policies and terms. We do not control those services.</p>
+      <p>Some providers use unencrypted HTTP connections. Traffic to those providers may not be encrypted in transit. Use HTTPS provider connections where available.</p>
+      <p>If you open our legal pages on GitHub Pages, GitHub may process your IP address and technical request information to serve those pages. Links opened in a browser are also subject to the browser's and destination site's privacy practices.</p>
+    </section>
+
+    <section>
+      <h2>Why we use information</h2>
+      <p>We process information to:</p>
+      <ul>
+        <li>Provide the player, your local library and account authentication.</li>
+        <li>Verify Pro subscriptions and restore eligible purchases.</li>
+        <li>Maintain security, investigate billing issues and prevent fraud or abuse.</li>
+        <li>Respond to support, privacy and account-deletion requests.</li>
+        <li>Meet applicable legal, accounting and regulatory obligations.</li>
+      </ul>
+      <p>Where the GDPR or UK GDPR applies, our legal bases include performing our contract with you for the app and subscription features, our legitimate interests in operating and securing the service and responding to support requests, and compliance with legal obligations. You can contact us about these bases and our legitimate-interest assessments.</p>
+      <p>We do not sell your personal information or use it for targeted advertising. The app does not include advertising SDKs. RevenueCat provides subscription-related reporting; this is separate from your locally stored IPTV viewing history.</p>
+    </section>
+
+    <section>
+      <h2>Who receives information</h2>
+      <p>Information may be processed by Google/Firebase for authentication, RevenueCat for subscription management, the relevant app store for purchases, and service providers needed to respond to support or comply with law. Your chosen IPTV and content hosts receive the connection requests described above.</p>
+      <p>We may disclose information where reasonably necessary to meet a legal obligation, protect rights or safety, investigate fraud, or carry out a business transfer with appropriate safeguards and any legally required notice.</p>
+      <p>Useful third-party information:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase privacy information</a></li>
+        <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat Privacy Policy</a></li>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
+        <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>International processing</h2>
+      <p>Our service providers may process information outside your country, including in the United States. Where applicable law requires safeguards for international transfers, we use appropriate transfer mechanisms, such as applicable adequacy decisions or contractual safeguards. Contact <strong><a href="mailto:bedatapro.solutions@gmail.com">bedatapro.solutions@gmail.com</a></strong> for information about the safeguards applicable to your data.</p>
+    </section>
+
+    <section>
+      <h2>How long information is kept</h2>
+      <p>Local library information remains on your device until it is removed through the app, cleared through device settings, or otherwise deleted. Removing a provider removes its saved catalog, guide, favorites, playback progress and saved connection settings from the app. Device backups and secure-storage entries may follow separate operating-system retention rules.</p>
+      <p>Account and subscription information is kept for as long as needed to operate your account, verify purchases, resolve disputes, prevent fraud and meet legal obligations. Some transaction records may need to be retained after account deletion. Support correspondence is retained for as long as needed to resolve the request and meet related legal obligations.</p>
+      <p>Uninstalling the app or signing out does not automatically delete your Firebase or RevenueCat account records, cancel a subscription, or erase records held by your IPTV provider or app store.</p>
+    </section>
+
+    <section>
+      <h2>Your choices and rights</h2>
+      <p>You may remove saved providers in Settings, sign out of Google in the app, and manage subscriptions through your app store. You can also manage Google's access permissions through your Google account settings.</p>
+      <p>To request access, correction, deletion, a copy of your information, or other privacy assistance, contact <strong><a href="mailto:bedatapro.solutions@gmail.com">bedatapro.solutions@gmail.com</a></strong>. For account deletion, include the Google email address used for IPTV Pal. We may ask for information needed to verify your identity before acting on the request.</p>
+      <p>Depending on your location, your rights may also include restriction, portability and objection to certain processing. Some requests may be limited by law or by information that we do not hold. We respond within the time required by applicable law. You may complain to your local data protection authority; in the EEA this can include the authority in your usual place of residence or work.</p>
+      <p>Requesting account deletion does not itself cancel an app-store subscription. Please cancel any subscription separately through the store. Do not send us your Google password, full payment-card details or IPTV provider passwords.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>The app is not directed to children under 4. If you believe a child has provided personal information contrary to applicable law, contact <a href="mailto:bedatapro.solutions@gmail.com">bedatapro.solutions@gmail.com</a> so we can investigate and take appropriate action.</p>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <p>We use measures intended to protect information, including secure device storage, encryption of sensitive saved connection data, and authenticated account and subscription services. No method of storage or transmission can guarantee absolute security. Protect your device, Google account and provider credentials.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy as the app or legal requirements change. We will update the date above and provide additional notice where required by law. The current version will be available through the app's Privacy Policy link.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For questions about this policy, write to <a href="mailto:bedatapro.solutions@gmail.com"><em>bedatapro.solutions@gmail.com</em></a>.</p>
+    </section>
+  </main>
+
+</body>
+</html>
+
+```
